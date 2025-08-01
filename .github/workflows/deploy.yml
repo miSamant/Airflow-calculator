@@ -3,8 +3,7 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches: [ main ]
-  pull_request:
-    branches: [ main ]
+  workflow_dispatch: # Allow manual triggering
 
 jobs:
   build-and-deploy:
@@ -12,16 +11,20 @@ jobs:
     
     steps:
     - name: Checkout
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
       
     - name: Setup Node.js
-      uses: actions/setup-node@v3
+      uses: actions/setup-node@v4
       with:
         node-version: '18'
-        cache: 'npm'
+        
+    - name: Clean npm cache and remove lock file
+      run: |
+        rm -f package-lock.json
+        npm cache clean --force
         
     - name: Install dependencies
-      run: npm ci
+      run: npm install
       
     - name: Build
       run: npm run build
