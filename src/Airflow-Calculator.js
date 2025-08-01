@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState} from 'react';
 import { Calculator, Server, Cpu, HardDrive, Database, CheckCircle, AlertTriangle, Info, TrendingUp, Clock, Users } from 'lucide-react';
 
 const AirflowConfigCalculator = () => {
