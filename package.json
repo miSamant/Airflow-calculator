@@ -2,7 +2,7 @@
   "name": "airflow-config-checker",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://miSamant.github.io/airflow-config-checker",
+  "homepage": "https://miSamant.github.io/Airflow-calculator",
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
