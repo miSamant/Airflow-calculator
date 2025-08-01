@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/airflow-config-checker/static/css/main.f2f0d030.css",
+    "main.js": "/airflow-config-checker/static/js/main.e0720394.js",
+    "index.html": "/airflow-config-checker/index.html",
+    "main.f2f0d030.css.map": "/airflow-config-checker/static/css/main.f2f0d030.css.map",
+    "main.e0720394.js.map": "/airflow-config-checker/static/js/main.e0720394.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f2f0d030.css",
+    "static/js/main.e0720394.js"
+  ]
+}
