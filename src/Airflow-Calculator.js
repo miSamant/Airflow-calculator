@@ -1,7 +1,7 @@
 import React, { useState} from 'react';
 import { Calculator, Server, Cpu, HardDrive, Database, CheckCircle, AlertTriangle, Info, TrendingUp, Clock, Users } from 'lucide-react';
 
-const AirflowConfigCalculator = () => {
+const AirflowCalculator = () => {
   const [selectedVersion, setSelectedVersion] = useState('2.8.0');
   const [cpu, setCpu] = useState(4);
   const [ram, setRam] = useState(8);
@@ -486,4 +486,4 @@ DB_CONNECTIONS = ${config.dbConnections}`}
   );
 };
 
-export default AirflowConfigCalculator;
+export default AirflowCalculator;
