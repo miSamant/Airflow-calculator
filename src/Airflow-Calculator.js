@@ -523,9 +523,8 @@ DB_CONNECTIONS = ${config.dbConnections}`}
         </div>
       </div>
     </div>
-</div> 
+   </div> 
   );
 };
 
 export default AirflowConfigCalculator;
-
