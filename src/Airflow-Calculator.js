@@ -523,7 +523,6 @@ DB_CONNECTIONS = ${config.dbConnections}`}
         </div>
       </div>
     </div>
-   </div> 
   );
 };
 
